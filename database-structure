@@ -1,0 +1,39 @@
+--
+-- Database: `bill_reciept`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `orders`
+--
+
+CREATE TABLE `orders` (
+  `id` int(11) NOT NULL,
+  `proudct_id` varchar(55) NOT NULL,
+  `product_name` varchar(55) NOT NULL,
+  `product_price` int(11) NOT NULL,
+  `product_qty` int(11) NOT NULL
+);
+
+--
+-- Dumping data for table `orders`
+--
+
+INSERT INTO `orders` (`id`, `proudct_id`, `product_name`, `product_price`, `product_qty`) VALUES
+(1, 'ml01', 'Malai Kadhaai', 250, 2),
+(2, 'pn01', 'Paneer Mutter', 150, 3),
+(3, 'pn02', 'Paneer Aloo', 120, 4),
+(4, 'rm1', 'Tandoori Roti', 25, 2),
+(5, 'rm1', 'Butter Roti', 35, 2),
+(6, 'jr01', 'Jeera Rice', 110, 2),
+(7, 'kf1', 'Veg Kofta', 230, 2),
+(8, 'mt01', 'Mutton Curry', 425, 1),
+(9, 'ck01', 'Chicken Cury', 210, 1),
+(10, 'ck02', 'Chicken Masala', 110, 1),
+(11, 'ck03', 'Chicken Rice', 150, 1),
+(12, 'rt01', 'Onion Rayata', 45, 1),
+(13, 'rt02', 'Onine Curd Rayata', 90, 1);
+
+
+// Code ends
