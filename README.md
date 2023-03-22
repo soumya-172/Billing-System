@@ -1,4 +1,4 @@
-# Billing-System
+# Billing-System Using PHP & MySql
 
 1) When Opening The Project will look like this :-
 
@@ -10,6 +10,7 @@
 
 3) After that mention the Quantity in "Qty" and Add that Meal by clicking the "Add" Button :-
 
-![Screenshot (180)](https://user-images.githubusercontent.com/83440971/226905499-07aa706d-3073-4d92-91bc-f5b2fa0c8a95.png)
+![Screenshot (182)](https://user-images.githubusercontent.com/83440971/226908636-01eb504f-0242-4a5d-bd1a-ff1fd32a5286.png)
+
 
 After adding the Meal the Payable amount will be displayed to you.
